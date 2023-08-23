@@ -26,4 +26,25 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--Charcoal-Grey);
+    min-height: 100vh;
+    font-size: var(--fs16-p);
+    line-height: 1.8;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    max-width: 955px;
+    margin: 0 auto;
+    background-color: var(--White);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .success {
+    display: initial;
+    padding: 3.5rem;
 }
